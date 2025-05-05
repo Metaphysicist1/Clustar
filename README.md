@@ -1,10 +1,39 @@
-# Star Clustering Analysis Project
+# Clustar: Automated Star Clustering Analysis
 
-This project analyzes astronomical data from the NASA Exoplanet Archive to perform clustering analysis on star observations. The dataset contains various measurements of stars including their positions, magnitudes, and observation periods.
+Clustar is an advanced astronomical data analysis project that leverages machine learning and clustering techniques to automate the detection and analysis of variable stars and transients from large-scale astronomical surveys.
+
+## Project Overview
+
+Modern astronomical surveys like TESS and LSST generate terabytes of data daily, creating an unprecedented challenge for traditional manual analysis methods. Clustar addresses this challenge by:
+
+1. Automating detection of anomalous variability, scaling to large datasets
+2. Prioritizing high-variability clusters, optimizing telescope use
+3. Providing robust noise handling, capturing diverse transients (e.g., supernovae, pulsators)
+
+## Key Challenges Addressed
+
+- **Data Volume**: Millions of stars observed in modern surveys generate terabytes of data daily
+- **Limited Telescope Time**: Expensive telescope time (e.g., JWST at $100K/hour) requires optimal utilization
+- **Manual Analysis Limitations**: Traditional methods are slow and miss subtle patterns
+- **Missed Opportunities**: Delayed detection of transients impacts our understanding of stellar evolution and cosmology
+
+## Project Impact
+
+### Scientific Impact
+
+- Accelerate discovery of variable stars, supernovae, and other transients
+- Enhance understanding of stellar evolution and galactic dynamics
+- Transform transient astronomy through automated analysis
+
+### Operational Impact
+
+- Optimize telescope scheduling, potentially saving $1M-$5M annually
+- Prioritize follow-up observations for high-impact targets
+- Streamline telescope use through intelligent clustering
 
 ## Dataset Description
 
-The dataset contains the following key features:
+Our dataset is sourced from the NASA Exoplanet Science Institute, providing rich photometric and light curve data. Key features include:
 
 - `star_id`: Unique identifier for each star
 - `region`: Part of the sky surveyed
@@ -18,20 +47,36 @@ The dataset contains the following key features:
 - `ierr`: I-band magnitude uncertainty
 - `npts`: Number of points in the light curve
 
+## Implementation Details
+
+The project implements a comprehensive analysis pipeline:
+
+1. Data Extraction and Loading
+
+   - Direct integration with NASA database
+   - Efficient data loading and preprocessing
+
+2. Feature Analysis and Processing
+
+   - Raw data transformation
+   - Standardization using scalers
+   - Dimension reduction techniques
+
+3. Clustering Analysis
+
+   - Multiple algorithm implementation (KMeans, PCA, etc.)
+   - Parameter optimization
+   - Parallel processing capabilities
+
+4. Visualization and Interpretation
+   - Interactive result visualization
+   - Comprehensive reporting
+   - Feature importance analysis
+
 ## Project Structure
 
 - `explore.ipynb`: Jupyter notebook containing the data exploration and analysis
 - `Cluster_2025.04.16_04.44.28.csv`: Raw dataset from NASA Exoplanet Archive
-
-## Data Processing
-
-The project includes the following data processing steps:
-
-1. Loading and initial exploration of the dataset
-2. Handling missing values
-3. Feature selection and preprocessing
-4. Data normalization
-5. Clustering analysis
 
 ## Requirements
 
