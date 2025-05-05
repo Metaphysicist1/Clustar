@@ -37,7 +37,7 @@ Modern astronomical surveys like TESS and LSST generate terabytes of data daily,
 
 Our dataset is sourced from the NASA Exoplanet Science Institute, providing rich photometric and light curve data. Key features include:
 
-Dataset is also provided in kaggle: **https://www.kaggle.com/datasets/edgarabasov/star-observations-dataset**
+Dataset is also provided on kaggle: **https://www.kaggle.com/datasets/edgarabasov/star-observations-dataset**
 
 - `star_id`: Unique identifier for each star
 - `region`: Part of the sky surveyed
