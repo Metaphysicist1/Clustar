@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/51b3cdb2-df77-4ff8-9d8d-909f22b247ea)
+
 # Clustar: Automated Star Clustering Analysis
 
 Clustar is an advanced astronomical data analysis project that leverages machine learning and clustering techniques to automate the detection and analysis of variable stars and transients from large-scale astronomical surveys.
