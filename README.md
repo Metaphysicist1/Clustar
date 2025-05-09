@@ -109,6 +109,9 @@ The data was obtained from the NASA Exoplanet Archive (http://exoplanetarchive.i
 
 This project is open source and available under the MIT License.
 
+## Acknowledgment
+This research has made use of the NASA Exoplanet Archive, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
